@@ -1,3 +1,4 @@
+// #1
 int solution(int number) 
 {
   int S = 0;
@@ -10,7 +11,7 @@ int solution(int number)
 }
 
 
-
+// #2
 #include <string>
 #include <cctype>
 
@@ -31,7 +32,7 @@ std::string duplicate_encoder(const std::string& word){
 }
 
 
-
+// #3
 #include <cctype>
 
 bool XO(const std::string& str)
@@ -48,7 +49,7 @@ bool XO(const std::string& str)
 }
 
 
-
+// #4
 class Printer
 {
 public:
@@ -65,7 +66,7 @@ std::string Printer::printerError(const std::string &s) {
 }
 
 
-
+// #5
 #include <string>
 #include <cctype>
 
@@ -84,7 +85,7 @@ std::string to_camel_case(std::string text) {
 }
 
 
-
+// #6
 #include <string>
 
 using namespace std;
@@ -103,7 +104,7 @@ int getCount(const string& inputStr){
 }
 
 
-
+// #7
 std::vector<int> deleteNth(std::vector<int> arr, int n)
 {
   std::vector<int> result;
@@ -119,7 +120,7 @@ std::vector<int> deleteNth(std::vector<int> arr, int n)
 }
 
 
-
+// #8
 #include<vector>
 
 bool isValidWalk(std::vector<char> walk) {
@@ -139,7 +140,7 @@ bool isValidWalk(std::vector<char> walk) {
 }
 
 
-
+// #9
 #include <vector>
 
 char findMissingLetter(const std::vector<char>& chars)
@@ -152,7 +153,7 @@ char findMissingLetter(const std::vector<char>& chars)
 }
 
 
-
+// #10
 #include <string>
 #include <vector>
 
